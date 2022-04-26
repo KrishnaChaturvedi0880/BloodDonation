@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+.nav{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+}
+
+
+.navlist{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.navlist li{
+    list-style:none;
+    padding: 26px 30px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
